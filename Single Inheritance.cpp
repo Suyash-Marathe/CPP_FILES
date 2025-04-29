@@ -6,7 +6,7 @@ class Animal
 	public:
 		void eat ()
 		{
-			cout << "I can eat." << endl;
+			cout << "Animal can eat." << endl;
 		}
 };
 
@@ -15,7 +15,7 @@ class Dog : public Animal
 	public:
 		void bark ()
 		{
-			cout << "I can bark." << endl;
+			cout << "Animal can bark." << endl;
 		}
 };
 
